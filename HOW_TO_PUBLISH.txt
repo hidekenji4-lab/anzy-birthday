@@ -1,0 +1,34 @@
+ANZY'S BIRTHDAY WEBSITE — READY TO PUBLISH
+
+FASTEST WAY (NETLIFY DROP):
+1. Open https://app.netlify.com/drop in your browser.
+2. Drag the ENTIRE Anzy_Birthday_Live_Website folder onto the page,
+   or upload the ZIP called Anzy_Birthday_Live_Website.zip.
+3. Netlify will give you a live https://...netlify.app link to share.
+4. Claim the deployed site with a free Netlify account if you want to keep it.
+5. Open the link on your phone to test the flower game, cake, music,
+   cats, and Tiny Comfort Corner.
+
+TO ADD YOUR OWN MUSIC:
+Put an MP3 named music.mp3 inside static/ BEFORE you upload.
+The sound button will use it. Without an MP3, it plays the built-in melody.
+
+TO MAKE CHANGES:
+Edit index.html, static/styles.css, or static/script.js and redeploy.
+
+IMPORTANT:
+This folder is static and does NOT require Python or Flask on the hosting
+service. The local Flask Python project is in the previous ZIP.
+All the cat artwork is included. Make sure you have permission to publish it.
+
+Keep the ZIP contents structured this way:
+  index.html
+  static/
+    styles.css
+    script.js
+    cats/
+    favicon.svg
+    music.mp3   (optional)
+
+If you use GitHub Pages, upload index.html and static/ at the repo root,
+then choose Settings > Pages > Deploy from branch > main > /(root).
